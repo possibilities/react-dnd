@@ -31,3 +31,7 @@ p {
 [draggable] {
   cursor: move;
 }
+
+.tall-card {
+  height: 100px;
+}

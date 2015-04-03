@@ -53,6 +53,7 @@ const Card = React.createClass({
     return (
       <div {...this.dragSourceFor(ItemTypes.CARD)}
            {...this.dropTargetFor(ItemTypes.CARD)}
+           className={this.props.text === 'Write README' ? 'tall-card' : ''}
            style={{
              ...style,
              opacity
